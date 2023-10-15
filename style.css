@@ -1,0 +1,695 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&family=Moon+Dance&family=Poppins:ital,wght@1,200&family=Roboto:wght@300&display=swap');
+
+/* body{
+  overflow-x: hidden;
+} */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+    
+background-color: rgb(0, 0, 33);
+color: white;
+width: 100%;
+height: 100%;
+
+} 
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+  
+  } 
+
+  /*navbar starts here*/
+  .header{
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:0.5rem 5%;
+    background-image: linear-gradient(to right,rgb(174, 68, 68),rgb(51, 138, 46),rgb(76, 50, 163));
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 100; */
+  }
+
+  .logo{
+    font-size: 3rem;
+    color: yellow;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  .navbar a{
+    font-size: 1.50rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 1.70rem;
+
+  }
+
+  
+
+  .navbar a:hover{
+    color: yellow;
+  }
+
+
+  .omii{
+    color: orange;
+  }
+
+  #element{
+    color: burlywood;
+  }
+
+  .first-p{
+    color: cyan;
+  }
+
+  .icons{
+    font-size: 2.8rem;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+  }
+
+
+  @media (max-width:992px){
+    .header{
+      padding: 1.3rem 5%;
+
+    }
+  }
+
+  /* @media (max-width:775px){
+    .icons{
+      display: block;
+
+    }
+
+    .navbar{
+      position: absolute;
+      top: 100%;
+      left:0;
+      width:100%;
+      height: 17rem;
+      
+    }
+
+    .navbar a{
+      display: block;
+      font-size: 1.1rem;
+      margin:1.1rem 0;
+      text-align: center;
+    }
+  } */
+ 
+  
+
+
+  
+
+
+
+
+
+/* home start from here  */
+
+
+.content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  height: 100%;
+  width: 100%;
+  
+  background-color: rgb(0, 0, 33);
+  
+  /* padding-bottom: 100px; */
+  
+}
+
+.content > div{
+  width: 35%;
+}
+
+
+.left-text h1{
+  font-size: 42px;
+  margin: 25px 0;
+}
+.left-text p{
+  font-size: 30px;
+  margin: 15px 0;
+  
+}
+
+
+
+
+.right-content{
+  padding-top: 100px;
+}
+
+.right-content img{
+  width: 85%;
+  
+}
+
+
+.content button{
+  /* margin:15px 0; */
+  font-size: 1rem;
+  padding: 12px 20px;
+  border-radius: 10px;
+  background-color: yellow;
+  font-weight: 500;
+  outline: none;
+  border: none;
+}
+
+.content button:hover{
+  background-color: rgb(26, 26, 177);
+  color: rgb(178, 201, 28);
+  transition: .5s;
+  
+}
+
+
+/* .hr{
+   width:60%;
+   
+   margin: auto;
+    border: 1px lightblue ;
+
+
+} */
+
+
+
+
+
+
+  
+
+
+
+ 
+
+/* 
+  About starts from here */
+
+  /* .about{
+    width: 100%;
+    padding:100px 0px;
+    
+  }
+
+  .main{
+    width: 80%;
+    
+    margin:auto;
+    display: flex;
+    align-items: center;
+    
+    
+    
+  }
+  .about-text{
+    
+    width: 90vw;
+    padding:30px 0;
+  }
+
+  .about-text h1{
+    text-align: center;
+    padding: 50px 0;
+  }
+
+  
+  .about img{
+    margin-right: 150px;
+    height:500px;
+    width: 500px;
+    
+  }
+
+  .about-text h1{
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .about-text p{
+    font-size: 22px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 100;
+    
+    margin-bottom: 25px;
+    
+  }
+
+  .about-text .social a{
+    font-size: 30px;
+   
+    margin-left: 1.35rem;
+    
+
+  } */
+
+  /*New about*/
+
+  /* next update of about*/
+
+
+
+  .about{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 33);
+    padding: 60px 0px;
+  }
+
+  .about-title{
+    text-align: center;
+    
+  }
+
+  .about h1{
+    font-size: 50px;
+    padding: 25px 0px;
+  }
+
+  .main{
+    display: flex;
+    width: 96%;
+    padding: 10px 10px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 4px 2px 30px rgb(139, 123, 177);
+    
+  }
+
+  .lefty-content{
+    width: 70% ;
+    background-color: rgb(0, 0, 33);
+    text-align: left;
+    
+    padding: 15px;
+  }
+
+  .lefty-content .contentt{
+    /* width: 90%; */
+    color: white;
+    padding:0px 50px;
+    
+    
+  }
+
+  .lefty-content .contentt h3{
+    padding: 15px 0px;
+    margin: auto;
+    font-size: 35px;
+    text-align: center;
+  }
+
+  .lefty-content .contentt p{
+    font-size: 22px;
+    font-family:sans-serif;
+    line-height: 1.2;
+    padding:0px 35px;
+  }
+
+  .lefty-content .contentt .buttonn{
+    padding:20px 0px
+  }
+
+  .lefty-content .contentt .buttonn a{
+    padding: 10px 25px;
+    margin: 20px 30px;
+    
+    text-decoration: none;
+    font-size: 20px;
+    outline: none;
+    
+    border-radius: 30px; 
+    background-color:rgb(13, 166, 232);
+    color:rgb(0, 0, 33);
+  }
+
+  .lefty-content .contentt .buttonn a:hover{
+    background-color: yellow;
+    color: rgb(0, 0, 33);
+    transition: 1s;
+    border: none;
+  }
+  
+  .lefty-content .contentt .buttonn i{
+    color: white;
+    
+  }
+  
+  .righty-contentt{
+    width: 85%;
+  }
+
+
+
+
+
+
+
+/* 
+  skills start from here */
+
+
+
+
+  .skills{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+    max-width: 100vw;
+    margin: auto;
+    
+  }
+  
+  .tech-h1{
+    margin-left: 150px;
+    margin-bottom: 75px;
+    font-size: 66px;
+  }
+  
+  .skills-row{
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  .skills-col h4{
+    text-align: center;
+    color: yellow;
+    font-size: 3vh;
+  } 
+  .skills-col img{
+    height:12vw;
+    width:12vw;
+    /* background-color: yellow; */
+    color: blue;
+    
+   border-radius: 40px;
+    transform:
+      perspective(750px)
+      translate3d(0px, 0px, -250px)
+      rotateX(27deg)
+      scale(0.9, 0.9);
+    border-radius: 20px;
+    
+    box-shadow: 0 70px 40px -20px rgba(0, 0, 0, 0.2);
+    transition: 0.4s ease-in-out transform;
+  
+    &:hover {
+      transform: translate3d(0px, 0px, -250px);
+    }
+  
+  }
+
+
+
+/* new skills */
+
+
+
+
+
+
+/* project starts from here */
+
+
+
+
+.project{
+  width: 100%;
+    margin: auto;
+    
+    height: auto;
+    background-color: rgb(0,0,33);
+    
+    color: white;
+    
+}
+
+.containers{
+  width:100%;
+  /* margin: auto; */
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  
+  flex-wrap: wrap;
+ 
+  
+  
+  text-align: center;
+}
+.containers h2{
+  text-align: center;
+  
+}
+
+.project h1{
+  font-size: 50px;
+  margin-left: 150px;
+  margin-bottom: 75px;
+  margin-top: 100px;
+}
+
+
+
+.card{
+ background-color: rgb(0, 0, 33);
+ color: white;
+ flex-basis: 25%;
+ margin: 10px 0px;
+ height: 500px;
+  
+  border-radius: 20px;
+  
+  /* border: 3px solid yellow; */
+  box-shadow: 2px 1px 20px rgb(139, 123, 177);
+}
+
+.card-image{
+  background-color: yellow;
+  height: 170px;
+  margin-bottom: 15px;
+}
+.car-1
+{
+  background-image: url("images/portfolioimage.png");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+
+  /* height: 200px; */
+}
+.car-2
+{
+  background-image: url("images/weather.jpg");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* height: 200px; */
+}
+
+.car-3
+{
+  background-image: url("images/netflix.png");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  
+  /* height: 200px; */
+}
+.car-4
+{
+  background-image: url("images/servicesystem.jpg");
+  background-size: cover;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* height: 200px; */
+}
+.card h2{
+  padding: 10px;
+  
+}
+.card p{
+  /* margin: 10px 10px;
+  height: 100px;
+  overflow: hidden; */
+  padding: 10px ;
+  
+}
+.card a{
+  background-color: rgb(29, 153, 126);
+  text-align: center;
+  padding: 10px 10px;
+  display: block;
+  margin-top:75px;
+  margin-left: 200px;
+  margin-right: 200px;
+  text-decoration: none;
+  border-radius: 40px;
+  
+  
+}
+
+.card:hover{
+  background-color: rgb(0, 0, 33);
+  color: white;
+  /* cursor: pointer; */
+  transform: scale(1.03);
+  transition: all 1s ease;    
+  box-shadow: 4px 2px 30px rgb(139, 123, 177);
+}
+
+.card a:hover{
+  background-color: rgb(29, 153, 126);
+  box-shadow: 2px 1px 20px rgb(29, 153, 126);
+  color: greenyellow;
+}
+
+
+
+
+
+/* contact me starts from here */
+
+.contact{
+  padding-top: 20px;
+  margin-top: 80px;
+}
+
+.data{
+  margin-left: 150px;
+}
+.logos img{
+  height: 5vw;
+  width: 5vw;
+  
+  padding: 30px;
+  
+  
+}
+
+.logos-hr img{
+  height: 6vw;
+  width: 6vw;
+  padding: 20px;
+  
+}
+
+.logos img:hover{
+  /* height:4.7vw;
+  width: 4.7vw;
+  padding: 10px; */
+  box-shadow: 5px 5px 25px yellow;border-radius: 100%;
+
+}
+
+.logos-hr img:hover{
+  /* height:6.9vw;
+  width: 6.9vw;
+  padding: 20px; */
+  box-shadow: 5px 5px 25px yellow;border-radius: 100%;
+  
+
+}
+
+
+.row-content{
+  padding: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data h1{
+  font-size: 50px;
+}
+
+/* .last-hr{
+    width:100%;
+    margin:auto;
+    border: solid rgb(178, 201, 28);
+    
+} */
+hr{
+  border: 1px solid rgb(29, 153, 126);
+}
+
+
+/* footer start */
+footer{
+  text-align: center;
+  margin:50px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////////////////////////// */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
