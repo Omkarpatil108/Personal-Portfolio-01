@@ -603,18 +603,18 @@ height: 100%;
   margin-left: 150px;
 }
 .logos img{
-  height: 5vw;
-  width: 5vw;
+  height: 4.5vw;
+  width: 4.5vw;
   
-  padding: 10px;
+  padding: 20px;
   
   
 }
 
 .logos-hr img{
-  height: 6vw;
-  width: 6vw;
-  padding: 20px;
+  height: 5vw;
+  width: 5vw;
+  padding: 15px;
   
 }
 
